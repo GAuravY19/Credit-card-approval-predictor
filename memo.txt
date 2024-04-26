@@ -1,0 +1,2 @@
+Generally, users in risk should be in 3%, thus I choose users who overdue for
+more than 60 days as target risk users. Those samples are marked as '1', else are '0'.
