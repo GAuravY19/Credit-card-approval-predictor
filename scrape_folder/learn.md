@@ -38,7 +38,7 @@ Bas difference yeh ho jata hai ki yaha pe tu ek information ke liye nahi balki b
 
 You will get to see this screen on running above code.
 
-<img src = 'C:\Users\sunil\OneDrive\Desktop\New folder\scrape folder\Screenshot 2024-04-26 185452.png'>
+<img src = 'D:\Fraudulent-transaction-predictor\scrape_folder\first.png'>
 
 
 <br><br><br>
@@ -47,20 +47,20 @@ ab webscraping kaise hogi yeh samajhte...
 
 Mera pehla kaam hai login/signup wala dialog box ko hatana using selenium.
 
-<img src = 'C:\Users\sunil\OneDrive\Desktop\New folder\scrape folder\Screenshot 2024-04-26 185701.png'>
+<img src = 'D:\Fraudulent-transaction-predictor\scrape_folder\second.png'>
 
 <br><br>
 ab yeh soch tu is dialogue box ko hatane ke liye kya karega, is cross button ko click karega. Toh bas ab hum bhi wohi karenge.
 
 Dekh kaise hoga.
 
-<img src = 'C:\Users\sunil\OneDrive\Desktop\New folder\scrape folder\Screenshot 2024-04-26 190354.png'>
+<img src = 'D:\Fraudulent-transaction-predictor\scrape_folder\third.png'>
 
 #### Cross box right click > Inspect pe click
 
 <hr>
 
-<img src = 'C:\Users\sunil\OneDrive\Desktop\New folder\scrape folder\Screenshot 2024-04-26 190429.png'>
+<img src = 'D:\Fraudulent-transaction-predictor\scrape_folder\last.png'>
 
 toh kucch aisa open hoga.Yaha pe cross box ka code highlight hoga. Now comes the `xpath` in picture.
 
