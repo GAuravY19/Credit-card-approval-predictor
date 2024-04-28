@@ -3,3 +3,8 @@ numpy
 matplotlib
 seaborn
 jupyter
+tabulate
+imbalanced-Learn
+scikit-learn
+flask
+flask-wtf
