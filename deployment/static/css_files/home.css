@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-top: 75px;
+    font-family: cursive;
+}
+
+.form-label{
+    font-size: 25px;
+}
+
+.img_size{
+    height: 400px;
+    width: 400px;
+}
+
+.btn-text{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-box{
+    width: 60%;
+    margin-left: 20%;
+    margin-top:5%;
+}
+
+.form-control-select{
+    width:10%;
+}
+
