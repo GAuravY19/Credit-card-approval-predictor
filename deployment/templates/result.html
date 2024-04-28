@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block title %} Result {% endblock %}
+
+{% block body %}
+
+<center>
+    <h1 class='title'> You Will get Credit Card </h1>
+    <br>
+    <img class="img_size" src = {{url_for('static', filename='/imgs/debit_card.png')}}>
+</center>
+
+<center>
+    <h1 class='title'> You Will not get Credit Card </h1>
+    <br>
+    <img class="img_size" src = {{url_for('static', filename='/imgs/blocked.png')}}>
+</center>
+
+{% endblock %}

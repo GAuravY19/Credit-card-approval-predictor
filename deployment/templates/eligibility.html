@@ -1,0 +1,118 @@
+{% extends "index.html" %}
+
+{% block title %} Check Eligibility {% endblock %}
+
+{% block body %}
+
+<div class='form-box'>
+    <form>
+        <div class="mb-3">
+            <label for="Gender" class="form-label">Gender</label>
+            <input type="Text" class="form-control" id="Gender" name="gender_value">
+        </div>
+
+        <div class="mb-3">
+            <label for="Age" class="form-label">Age</label>
+            <input type="Text" class="form-control" id="Age" name="age_value">
+        </div>
+
+        <div class="mb-3">
+            <label for="Employment" class="form-label">Employment Years</label>
+            <input type="Text" class="form-control" id="Employment" name="emp_value" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+            <label for="Occupation" class="form-label">Occupation Type</label>
+            <select class="form-select" name = "Occupation_value">
+                <option value='Support and Services'>Support and Services</option>
+                <option value='Customer Service and Hospitality'>Customer Service and Hospitality</option>
+                <option value='Finance and Accounting'>Finance and Accounting</option>
+                <option value='Labor and Maintenance'>Labor and Maintenance</option>
+                <option value="Administrative and Management">Administrative and Management</option>
+                <option value="Transportation and Logistics">Transportation and Logistics</option>
+                <option value="Technical and IT">Technical and IT</option>
+                <option value="Healthcare">Healthcare</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="House" class="form-label">Type of House you live in</label>
+            <select class="form-select" name = 'house_value'>
+                <option value='House / apartment'>House / apartment</option>
+                <option value='Rented apartmen'>Rented apartmen</option>
+                <option value='Municipal apartment'>Municipal apartment</option>
+                <option value='With parents'>With parents</option>
+                <option value="Co-op apartment">Co-op apartment</option>
+                <option value="Office apartment">Office apartment</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Car" class="form-label">Do You Own a Car</label>
+            <select class="form-select" name = 'car_value'>
+                <option value='Yes'>Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Realty" class="form-label">Do You Own Realty</label>
+            <select class="form-select" name = 'realty_value'>
+                <option value='Yes'>Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Children" class="form-label">No. Children in the family</label>
+            <input type="Text" class="form-control" id="Gender" name="children_value" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+            <label for="Income" class="form-label">Annual Income</label>
+            <input type="Text" class="form-control" name = 'income_value' id="Gender" name="gender_value" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+            <label for="IncomeType" class="form-label">Income Type</label>
+            <select class="form-select" name="IncomeType_value">
+                <option value='Working'>Working</option>
+                <option value='Commercial associate'>Commercial associate</option>
+                <option value='State servant'>State servant</option>
+                <option value='Student'>Student</option>
+                <option value="Pensioner">Pensioner</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Education" class="form-label">Education</label>
+            <select class="form-select" name = 'education_value'>
+                <option value='Secondary / secondary special'>Secondary / secondary special</option>
+                <option value='Incomplete higher'>Incomplete higher</option>
+                <option value='Lower secondary'>Lower secondary</option>
+                <option value='Higher education'>Higher education</option>
+                <option value="Academic degree">Academic degree</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Members" class="form-label">No. of Members in the family</label>
+            <input type="Text" class="form-control" name = "FamilyMem_value" id="Gender" name="gender_value" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+            <label for="Overdues" class="form-label">Overdues days</label>
+            <select class='form-select' name="overdues_value">
+                <option value='<60'>Less than 60 days</option>
+                <option value='60-150'>60-150 days</option>
+                <option value='B'>Bad Debt</option>
+                <option value="C">Paid Dues</option>
+                <option value="X">No Loan</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+{% endblock %}

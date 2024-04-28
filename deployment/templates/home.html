@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block title %} Home Page {% endblock %}
+
+{% block body %}
+
+<center>
+    <h1 class='title'> Credit Card Eligibility Check: Are You Qualified? </h1>
+</center>
+
+<center>
+    <img class = "img_size" src = {{url_for('static', filename = '/imgs/credit-card.png')}}></img>
+</center>
+
+<center>
+    <button type="button" class="btn btn-info">
+        <a href="#" class='btn-text'> Let's check </a>
+    </button>
+</center>
+
+{% endblock %}
