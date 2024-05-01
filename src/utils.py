@@ -34,5 +34,17 @@ def save_models(name:str, path:str, model) -> None:
     except Exception as e:
         raise CustomException(e, sys)
 
+def load_models(path:str, name:str):
+    try:
+        with open(path, 'rb') as f:
+            loaded_model = pickle.load(f)
+
+        logging.info(f"Loading of {name} model completed.")
+
+        return loaded_model
+
+    except:
+        logging.info(f"Loading of {name} model failed.")
+
 
 
