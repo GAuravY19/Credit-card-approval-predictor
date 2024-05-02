@@ -549,4 +549,21 @@ class FeatureEngineering:
             logging.info("Encoding and scaling of occupation col failed.")
             raise CustomException(e, sys)
 
+    def step_15_save_model(self, df:pd.DataFrame):
+        """
+        This method will save cleaned data to csv file.
+
+        Args:
+            df (pd.DataFrame): The dataset which is ready to be saved.
+        """
+
+        logging.info("Saving of Model started.")
+
+        save_data(name='Fetaured_data.csv',
+                  path = 'D:/Credit-card-approval-predictor/data/clean_data',
+                  df=df)
+
+        logging.info("Saving of Model Completed.")
+
+
 
