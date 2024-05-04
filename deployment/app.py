@@ -28,7 +28,7 @@ def check_eligibility():
                         INCOME=INCOME, INCOME_TYPE=INCOME_TYPE, EDUCATION=EDUCATION, MEMBER=MEMBER,
                         OVERDUES=OVERDUES, EMPLOYMENT=EMPLOYMENT, OCCUPATION=OCCUPATION, HOUSE=HOUSE)
 
-
+        print(output)
         return redirect(url_for('result', predicted_value = output))
 
     return render_template("eligibility.html")
